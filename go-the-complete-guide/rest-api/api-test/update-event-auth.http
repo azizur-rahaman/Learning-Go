@@ -1,0 +1,10 @@
+PUT http://localhost:8080/event/1
+Content-Type: application/json
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+{
+    "name": "Updated Protected Event",
+    "description": "This event update requires authentication",
+    "location": "Updated Secure Location",
+    "dateTime": "2024-01-02T10:00:00Z"
+}

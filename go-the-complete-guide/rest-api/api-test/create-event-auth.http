@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+Content-Type: application/json
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+{
+    "name": "Protected Event",
+    "description": "This event requires authentication",
+    "location": "Secure Location",
+    "dateTime": "2024-01-01T10:00:00Z"
+}
